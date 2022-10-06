@@ -8,9 +8,8 @@
 
 #### Development tools
 
-- Vanilla Js
-- React Js
-- Express Js
+- React Js - frontend
+- Express Js - backend
 
 #### Style tool
 
