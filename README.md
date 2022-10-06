@@ -2,7 +2,9 @@
 
 ## Contents sites
 
-#### The Site conta
+#### The Site Content
+
+- The goal is a webshop implementation with React, Express that communicates with Firebase for authentication and Netifly for store data.
 
 #### Development tools
 
