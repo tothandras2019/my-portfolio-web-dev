@@ -1,0 +1,8 @@
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(39, 132, 199, 0.297);
+  backdrop-filter: blur(5px);
+}/*# sourceMappingURL=footer-components.css.map */
