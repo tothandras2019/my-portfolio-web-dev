@@ -53,11 +53,20 @@ section {
 .contents {
   width: 80%;
   height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 #root {
+  position: relative;
   background-image: url('./images/shore_20220708_115840.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  color: rgb(9, 27, 66);
+}
+
+#root h1 {
+  font-size: 50px;
 }
