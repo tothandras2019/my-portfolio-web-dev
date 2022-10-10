@@ -55,14 +55,16 @@ section {
   height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #root {
   position: relative;
-  background-image: url('./images/shore_20220708_115840.jpg');
+  background-image: url('./images/other/black_and_white_boat_cruise_fishing_boat_harbor_599313.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
 
   color: rgb(9, 27, 66);
 }

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"authentication-component.css"}
+{"version":3,"sourceRoot":"","sources":["authentication-component.scss","../../variables/variables.scss"],"names":[],"mappings":"AAEA;EACE,kBCF2B;EDG3B;EACA;EACA;EACA;EACA","file":"authentication-component.css"}

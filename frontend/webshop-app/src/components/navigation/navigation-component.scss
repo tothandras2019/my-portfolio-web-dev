@@ -31,6 +31,12 @@ nav {
       font-size: $x-larger-font-size;
     }
 
+    @media screen and( max-width: 815px ) {
+      .menu-items {
+        display: none;
+      }
+    }
+
     .cart-container {
       display: flex;
       flex-direction: column;

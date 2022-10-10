@@ -1,6 +1,6 @@
 import './navigation-component.css'
-import logo from './../../images/seagull_203318.jpg'
-import cartIcon from './../../images/shopping_basket.svg'
+import logo from './../../images/other/seagull_203318.jpg'
+import cartIcon from './../../images/svg/shopping_basket.svg'
 
 export const Navigation = ({ menu }) => {
   const menuItem = { home: 'home', shop: 'shop', contacts: 'contacts', auth: 'sign in' }

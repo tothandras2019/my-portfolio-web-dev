@@ -1,3 +1,5 @@
+import './authentication-component.css'
+
 export const Authentication = () => {
-  return <div>This is Authentication menu</div>
+  return <div className='auth-container'></div>
 }

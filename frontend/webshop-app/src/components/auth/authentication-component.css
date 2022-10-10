@@ -1,1 +1,8 @@
-/*# sourceMappingURL=authentication-component.css.map */
+.auth-container {
+  background-color: rgba(6, 34, 85, 0.642);
+  backdrop-filter: blur(5px);
+  box-shadow: 10px 10px 20px rgba(50, 50, 51, 0.607);
+  border-radius: 3px;
+  width: 80%;
+  height: 90%;
+}/*# sourceMappingURL=authentication-component.css.map */

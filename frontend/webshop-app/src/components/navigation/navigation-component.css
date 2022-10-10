@@ -27,6 +27,11 @@ nav .contents .menu-items {
   align-items: center;
   font-size: 30px;
 }
+@media screen and (max-width: 815px) {
+  nav .contents .menu-items {
+    display: none;
+  }
+}
 nav .contents .cart-container {
   display: flex;
   flex-direction: column;
