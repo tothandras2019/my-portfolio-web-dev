@@ -1,10 +1,20 @@
 @import './../../variables/variables.scss';
 
 .auth-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: $secondary-background-color;
   backdrop-filter: blur(5px);
   box-shadow: 10px 10px 20px rgba(50, 50, 51, 0.607);
   border-radius: 3px;
   width: 80%;
-  height: 90%;
+  height: 100%;
+
+  .form-container {
+    width: 40%;
+    height: 70%;
+    border-radius: 3px;
+    background-color: $border-color;
+  }
 }

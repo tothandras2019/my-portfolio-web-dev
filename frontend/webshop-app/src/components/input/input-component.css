@@ -1,1 +1,32 @@
-/*# sourceMappingURL=input-component.css.map */
+span {
+  position: relative;
+  width: 70%;
+  padding: 10px 0;
+  font-size: x-large;
+}
+span::before {
+  position: absolute;
+  content: "";
+  top: 40px;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(148, 169, 183);
+}
+span input {
+  outline: none;
+  background: none;
+  border: none;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+span input:focus::placeholder {
+  font-size: 0px;
+  color: red;
+  transition: 0.5s;
+}
+span input::placeholder {
+  transition: 0.5s;
+  font-size: x-large;
+}/*# sourceMappingURL=input-component.css.map */

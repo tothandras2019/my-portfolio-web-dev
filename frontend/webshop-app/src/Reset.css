@@ -87,4 +87,5 @@ video {
   vertical-align: baseline;
   text-decoration: none;
   color: rgb(9, 27, 66);
+  outline: none;
 }

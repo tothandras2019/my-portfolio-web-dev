@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["loading-mask-component.scss","../../variables/variables.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;EACA,kBCLmB;;ADMnB;EACE;EACA;EACA;EACA","file":"loading-mask-component.css"}
+{"version":3,"sourceRoot":"","sources":["loading-mask-component.scss","../../variables/variables.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;EACA,kBCJmB;;ADKnB;EACE;EACA;EACA;EACA","file":"loading-mask-component.css"}

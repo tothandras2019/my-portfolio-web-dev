@@ -1,8 +1,17 @@
 .auth-container {
-  background-color: rgba(6, 34, 85, 0.642);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(173, 180, 191, 0.223);
   backdrop-filter: blur(5px);
   box-shadow: 10px 10px 20px rgba(50, 50, 51, 0.607);
   border-radius: 3px;
   width: 80%;
-  height: 90%;
+  height: 100%;
+}
+.auth-container .form-container {
+  width: 40%;
+  height: 70%;
+  border-radius: 3px;
+  background-color: rgb(6, 34, 85);
 }/*# sourceMappingURL=authentication-component.css.map */

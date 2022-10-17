@@ -1,9 +1,19 @@
 import './navigation-component.css'
 import logo from './../../images/other/seagull_203318.jpg'
 import cartIcon from './../../images/svg/shopping_basket.svg'
+import { useContext, useState } from 'react'
+import { GetLinkContext } from '../contexts/contexts-component'
 
 export const Navigation = ({ menu }) => {
   const menuItem = { home: 'home', shop: 'shop', contacts: 'contacts', auth: 'sign in' }
+  const { setLink } = useContext(GetLinkContext)
+  const [acivated, setActivated] = useState(false)
+
+  const handleOnLinkClick = (event) => {
+    const link = event.target.dataset.ref
+    setLink(() => link)
+    setActivated(true)
+  }
 
   return (
     <nav>
@@ -14,9 +24,11 @@ export const Navigation = ({ menu }) => {
         </div>
         <div className='menu-items'>
           {Object.entries(menuItem).map(([key, value]) => (
-            <a key={key} href={`/${key === 'home' ? '' : key}`}>
-              {value}
-            </a>
+            <span key={`${key}`}>
+              <a data-ref={`/${key === 'home' ? '' : key}`} href={`/${key === 'home' ? '' : key}`} onClick={handleOnLinkClick}>
+                {value}
+              </a>
+            </span>
           ))}
         </div>
         <div className='cart-container'>

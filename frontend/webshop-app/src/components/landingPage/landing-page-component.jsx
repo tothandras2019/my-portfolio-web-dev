@@ -7,6 +7,8 @@ import { getOrders, useFetch } from '../../DATA/data-connect-to-server.js'
 import { useEffect, useState } from 'react'
 
 export const LandingPage = () => {
+  const url = 'http://127.0.0.1:9000'
+  const [link, setLink] = useState(null) //TODO: add it to context for changed by nav buttons
   const [data] = useFetch('http://127.0.0.1:9000/api/orders')
 
   const [message, setMessage] = useState(null)

@@ -69,6 +69,10 @@ section {
   color: rgb(9, 27, 66);
 }
 
+a {
+  color: rgb(9, 27, 66);
+}
+
 #root h1 {
   font-size: 50px;
 }

@@ -1,1 +1,10 @@
-/*# sourceMappingURL=auth-form-component.css.map */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+form * {
+  color: white;
+}/*# sourceMappingURL=auth-form-component.css.map */

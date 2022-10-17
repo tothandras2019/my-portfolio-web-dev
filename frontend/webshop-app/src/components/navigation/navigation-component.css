@@ -27,12 +27,39 @@ nav .contents .menu-items {
   align-items: center;
   font-size: 30px;
 }
+nav .contents .menu-items span {
+  position: relative;
+  width: fit-content;
+}
+nav .contents .menu-items span::before {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: rgb(9, 27, 66);
+  transition: 0.3s;
+}
+nav .contents .menu-items span.activated::before {
+  position: absolute;
+  top: 33px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: rgb(9, 27, 66);
+  transition: 0.3s;
+}
+nav .contents .menu-items span:hover::before {
+  width: 100%;
+}
 @media screen and (max-width: 815px) {
-  nav .contents .menu-items {
+  nav .contents .menu-items .menu-items {
     display: none;
   }
 }
-nav .contents .cart-container {
+nav .contents .menu-items .cart-container {
   display: flex;
   flex-direction: column;
   align-items: center;

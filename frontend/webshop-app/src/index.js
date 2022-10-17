@@ -5,13 +5,16 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { BrowserRouter } from 'react-router-dom'
 import { Loading } from './components/loading/loading-mask-component'
+import { GetLinkProvider } from './components/contexts/contexts-component.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
-      {/* <Loading /> */}
+      <GetLinkProvider>
+        <App />
+        {/* <Loading /> */}
+      </GetLinkProvider>
     </BrowserRouter>
   </React.StrictMode>,
 )

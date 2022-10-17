@@ -12,7 +12,8 @@ const options = {
 app.use(cors(options))
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  console.log('reg comes')
+  res.status(200).send({ success: true, message: 'this is home page message' })
 })
 
 app.post('/order', (req, res) => {
