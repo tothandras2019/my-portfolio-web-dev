@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["auth-form-component.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;;AAEA;EACE","file":"auth-form-component.css"}
+{"version":3,"sourceRoot":"","sources":["auth-form-component.scss","../../../variables/variables.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;;AACA;EACE;EACA;;AAGF;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA,kBCvBO","file":"auth-form-component.css"}

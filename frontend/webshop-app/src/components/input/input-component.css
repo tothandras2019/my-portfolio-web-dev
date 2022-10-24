@@ -20,13 +20,14 @@ span input {
   height: 30px;
   padding: 5px;
   box-sizing: border-box;
+  font-size: x-large;
+  color: rgb(9, 27, 66);
 }
 span input:focus::placeholder {
   font-size: 0px;
-  color: red;
   transition: 0.5s;
 }
 span input::placeholder {
   transition: 0.5s;
-  font-size: x-large;
+  color: rgba(9, 27, 66, 0.623);
 }/*# sourceMappingURL=input-component.css.map */

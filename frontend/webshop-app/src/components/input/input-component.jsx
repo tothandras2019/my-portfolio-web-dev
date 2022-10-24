@@ -1,9 +1,10 @@
 import './input-component.css'
-export const MyInput = ({ inputType }) => {
-  const { email, password } = inputType
+export const MyInput = ({ inputType, inputHandler }) => {
+  const inputT = inputType === 'confirm password' ? 'password' : inputType === 'e-mail' ? 'email' : inputType
+
   return (
     <span>
-      <input type='text' placeholder={inputType} />
+      <input required={true} type={inputT} placeholder={inputType} onChange={inputHandler} />
     </span>
   )
 }

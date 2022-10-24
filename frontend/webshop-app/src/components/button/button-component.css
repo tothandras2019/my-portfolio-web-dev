@@ -1,11 +1,22 @@
-input[type=button] {
+input[type=button],
+input[type=submit] {
   width: fit-content;
   border: none;
   border-radius: 2px;
   height: 40px;
   padding: 0 20px;
   box-sizing: border-box;
-  color: black;
+  color: rgb(9, 27, 66);
   text-transform: uppercase;
   font-weight: 900;
+  transition: 0.1s;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(9, 27, 66);
+}
+input[type=button]:active,
+input[type=submit]:active {
+  scale: 0.9;
 }/*# sourceMappingURL=button-component.css.map */

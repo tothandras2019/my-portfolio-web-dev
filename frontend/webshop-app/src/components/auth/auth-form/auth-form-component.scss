@@ -6,8 +6,26 @@ form {
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
 
-  * {
-    color: white;
+  .fault-message {
+    height: fit-content;
+    min-height: 40px;
+    width: 70%;
+
+    p {
+      color: rgb(228, 17, 17);
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin: 5px 0 10px;
+      padding: 3px 0;
+      background-color: $font-color;
+    }
   }
 }

@@ -5,6 +5,23 @@ form {
   padding: 20px;
   box-sizing: border-box;
 }
-form * {
-  color: white;
+form .button-container {
+  display: flex;
+  gap: 10px;
+}
+form .fault-message {
+  height: fit-content;
+  min-height: 40px;
+  width: 70%;
+}
+form .fault-message p {
+  color: rgb(228, 17, 17);
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 5px 0 10px;
+  padding: 3px 0;
+  background-color: rgb(9, 27, 66);
 }/*# sourceMappingURL=auth-form-component.css.map */

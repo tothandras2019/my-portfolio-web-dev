@@ -8,13 +8,20 @@ export const Authentication = () => {
     password: 'password',
   }
 
+  const handlerSignIn = (userFilledInValues) => {
+    console.log(userFilledInValues)
+  }
+  const handlerSignUp = (userFilledInValues) => {
+    console.log(userFilledInValues)
+  }
+
   return (
     <div className='auth-container'>
       <div className='form-container'>
-        <MyForm inputs={inputs} signType='Sign In' />
+        <MyForm title='Sign in' inputs={inputs} signType='Sign In' handler={handlerSignIn} />
       </div>
       <div className='form-container'>
-        <MyForm inputs={inputs} signType='Sign Up' />
+        <MyForm title='Sign up' inputs={inputs} signType='Sign Up' handler={handlerSignUp} />
       </div>
     </div>
   )
