@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Dragonfly", "price": 401012, "currency": "USD", "img": "yacht_1.jpg" },
+  { "id": 2, "name": "The pea", "price": 4044, "currency": "USD", "img": "yacht_2.jpg" },
+  { "id": 3, "name": "White Lion", "price": 120, "currency": "USD", "img": "yacht_3.jpg" },
+  { "id": 4, "name": "Calcedonia", "price": 120, "currency": "USD", "img": "yacht_4.jpg" },
+  { "id": 5, "name": "Black Pearl", "price": 120, "currency": "USD", "img": "yacht_5.jpg" },
+  { "id": 6, "name": "The Small bird", "price": 120, "currency": "USD", "img": "yacht_6.jpg" },
+  { "id": 7, "name": "Long Velvet", "price": 120, "currency": "USD", "img": "yacht_7.jpg" },
+  { "id": 8, "name": "Wiskey", "price": 120, "currency": "USD", "img": "yacht_8.jpg" }
+]
