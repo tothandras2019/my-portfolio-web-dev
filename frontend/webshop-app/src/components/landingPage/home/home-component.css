@@ -1,1 +1,13 @@
-/*# sourceMappingURL=home-component.css.map */
+.home-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30vh;
+}
+.home-container .ships-for-sale {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}/*# sourceMappingURL=home-component.css.map */

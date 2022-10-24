@@ -9,14 +9,14 @@ import { GetLinkProvider } from './components/contexts/contexts-component.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <GetLinkProvider>
-        <App />
-        {/* <Loading /> */}
-      </GetLinkProvider>
-    </BrowserRouter>
-  </React.StrictMode>,
+  // <React.StrictMode>
+  <BrowserRouter>
+    <GetLinkProvider>
+      <App />
+      {/* <Loading /> */}
+    </GetLinkProvider>
+  </BrowserRouter>,
+  // </React.StrictMode>,
 )
 
 // If you want to start measuring performance in your app, pass a function

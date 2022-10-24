@@ -1,0 +1,14 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 30vh;
+  .ships-for-sale {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  }
+}
