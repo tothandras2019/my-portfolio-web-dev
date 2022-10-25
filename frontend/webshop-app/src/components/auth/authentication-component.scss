@@ -2,20 +2,21 @@
 
 .auth-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background-color: $secondary-background-color;
   backdrop-filter: blur(5px);
   box-shadow: 10px 10px 20px rgba(50, 50, 51, 0.607);
   border-radius: 3px;
   width: 80%;
-  height: 100%;
+  max-width: 65%;
+  min-height: 500px;
 
   .form-container {
-    width: 50%;
-    height: 50%;
+    width: 49.9%;
+    min-height: 500px;
     border-radius: 3px;
     color: black;
-    // background-color: $border-color;
+    background-color: rgb(221, 222, 227);
   }
 }

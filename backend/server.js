@@ -34,7 +34,7 @@ app.get('/img/:id', (req, res) => {
     res.sendFile(`${ship.img}`, options, (err) => {
       if (err) {
         console.error('error', err)
-      } else console.log('file sent')
+      } else console.log('img sent')
     })
   })
 })

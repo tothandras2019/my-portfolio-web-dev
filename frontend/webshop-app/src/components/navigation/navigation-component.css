@@ -1,10 +1,18 @@
 nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 13%;
+  min-height: 10vh;
   background: rgba(39, 132, 199, 0.297);
   backdrop-filter: blur(5px);
+}
+nav .contents {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 nav .contents .logo-container {
   display: flex;
@@ -16,7 +24,8 @@ nav .contents .logo-container .logo-title {
   font-size: 45px;
 }
 nav .contents .logo-container img {
-  width: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   border: 4px solid rgb(6, 34, 85);
 }

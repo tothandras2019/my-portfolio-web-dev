@@ -7,6 +7,7 @@ import { Card } from '../ship-card/ship-card-component.jsx'
 
 export const Home = () => {
   const homeUrl = 'http://127.0.0.1:9000/'
+  const priceFormat = Intl.NumberFormat('us-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 })
 
   const { link: linkNav } = useContext(GetLinkContext)
   const [isPressed, setIsPressed] = useState(false)
@@ -18,14 +19,19 @@ export const Home = () => {
   useEffect(() => {
     if (!data) return
     console.log(data)
-    // setSuccess(success)
-    // setMessage(message)
+
     return () => {}
   }, [data])
 
   return (
     <div className='home-container'>
-      <div className='ships-for-sale'>{data && data.map((ship) => <Card key={ship.id} imgId={ship.id} name={ship.name} price={ship.price} />)}</div>
+      <div className='ships-for-sale'>
+        {data &&
+          data.map((ship) => {
+            const price = priceFormat.format(ship.price)
+            return <Card key={ship.id} imgId={ship.id} name={ship.name} price={price} />
+          })}
+      </div>
 
       {/* <img src='http://127.0.0.1:9000/img/2' alt='no such picture' /> */}
     </div>

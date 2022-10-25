@@ -1,0 +1,8 @@
+.ship-sale-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.ship-sale-options div {
+  width: fit-content;
+}/*# sourceMappingURL=ship-card-component.css.map */

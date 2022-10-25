@@ -3,12 +3,18 @@
 nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 13%;
+  min-height: 10vh;
   background: $background-color;
   backdrop-filter: blur(5px);
   .contents {
     //for content musn't modifications here!
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     .logo-container {
       display: flex;
       align-items: center;
@@ -18,7 +24,8 @@ nav {
         font-size: $xxl-larger-font-size;
       }
       img {
-        width: 100px;
+        width: 80px;
+        height: 80px;
         border-radius: 50%;
         border: 4px solid $border-color;
       }
